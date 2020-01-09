@@ -1,0 +1,39 @@
+{
+  "name": "gif-search",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://Windesson.github.io/react-gif-search",
+  "devDependencies": {
+    "react-scripts": "^3.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "gh-pages": "^2.2.0",
+    "gh-pages-deploy": "^0.5.1",
+    "node-sass": "^4.13.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "sass": "^1.24.3",
+    "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
