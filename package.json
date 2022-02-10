@@ -10,7 +10,7 @@
     "axios": "^0.19.1",
     "gh-pages": "^2.2.0",
     "gh-pages-deploy": "^0.5.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "sass": "^1.24.3",
